@@ -63,11 +63,11 @@ Most notable weakness: **38% of truly High-dependency students (242 of 630) were
 
 ```
 ├── project.ipynb              # Full analysis: EDA → cleaning → modeling → evaluation
+├── project.html               # Full project as a HTML page
 ├── ai_dependency_model.pkl    # Exported, trained pipeline (preprocessing + model)
 ├── Report_AI_dependency.html  # Sweetviz data profiling report
 ├── README.md
 ├── LICENSE                    # MIT
-├── .env-example                # Template for environment variables
 └── .gitignore
 ```
 
@@ -82,10 +82,11 @@ Most notable weakness: **38% of truly High-dependency students (242 of 630) were
 ## 🔄 Reproducing This Project
 
 ```bash
-git clone <your-repo-url>
-cd AI_Dependency
-pip install -r requirements.txt   # or install packages listed at the top of project.ipynb
-jupyter lab project.ipynb
+- git clone <your-repo-url>
+- cd AI_Dependency
+- python -m venv venv
+- pip install -r requirements.txt   # or install packages listed at the top of project.ipynb
+- jupyter lab project.ipynb
 ```
 
 ---
